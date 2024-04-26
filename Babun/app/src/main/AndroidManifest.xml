@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.babun">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Babun">
+        <activity
+            android:name=".activities.PlacedOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.NavCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegistrationActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomeActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".activities.LoginActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Babun.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

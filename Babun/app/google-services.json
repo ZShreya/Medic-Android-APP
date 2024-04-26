@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "689596573533",
+    "project_id": "medic-a3a03",
+    "storage_bucket": "medic-a3a03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689596573533:android:6e3738a13b0f52b186aab4",
+        "android_client_info": {
+          "package_name": "com.example.babun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689596573533-qtip68e6uhf24qqckm7jiq01m2o2n646.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWybzzcyMAxWRRS7wEv8NQszMCupu9IF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689596573533-qtip68e6uhf24qqckm7jiq01m2o2n646.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
